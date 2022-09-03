@@ -4,10 +4,9 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 
 
-img_icon = Image.open("/home/nyingi/Desktop/webapp/images/container_icon.jpg")
+img_icon = Image.open("./images/container_icon.jpg")
 
 st.set_page_config(page_title="Nyingi Containers",page_icon=img_icon,layout="wide")
-
 
 def load_lottieurl(url):
     r = requests.get(url)
