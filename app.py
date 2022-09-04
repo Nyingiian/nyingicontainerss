@@ -22,7 +22,16 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
 
-local_css("./style/style.css")       
+local_css("./style/style.css")      
+
+# Hide hamburger menu
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
 #---LOAD ASSETS-----
 
 lottie_coding = load_lottieurl ("https://assets7.lottiefiles.com/packages/lf20_pnjqarcr.json")
