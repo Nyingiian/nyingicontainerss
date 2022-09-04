@@ -3,6 +3,10 @@ import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
 
+img_icon = Image.open("./images/container_icon.jpg")
+
+st.set_page_config(page_title="Nyingi Containers",page_icon=img_icon,layout="wide")
+
 # Hide hamburger menu
 hide_menu_style = """
         <style>
@@ -11,17 +15,13 @@ hide_menu_style = """
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
 
-img_icon = Image.open("./images/container_icon.jpg")
-
-st.set_page_config(page_title="Nyingi Containers",page_icon=img_icon,layout="wide")
-
 def load_lottieurl(url):
     r = requests.get(url)
     if r.status_code != 200:
         return None 
 
     return r.json()
-    
+
 #Use Local CSS
 
 def local_css(file_name):
