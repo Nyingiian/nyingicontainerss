@@ -8,6 +8,14 @@ img_icon = Image.open("./images/container_icon.jpg")
 
 st.set_page_config(page_title="Nyingi Containers",page_icon=img_icon,layout="wide")
 
+# Hide hamburger menu
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
 def load_lottieurl(url):
     r = requests.get(url)
     if r.status_code != 200:
@@ -23,14 +31,6 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
 
 local_css("./style/style.css")      
-
-# Hide hamburger menu
-hide_menu_style = """
-        <style>
-        #MainMenu {visibility: hidden;}
-        </style>
-        """
-st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 #---LOAD ASSETS-----
 
