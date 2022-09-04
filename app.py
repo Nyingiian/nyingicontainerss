@@ -39,7 +39,7 @@ with st.container():
     st.subheader("Hi, I am Ian Nyingi :wave:")
     st.title("Sales Manager at Cointainer Investment Kenya")
     st.write("We are a world-class shipping container suppliers. We offer the highest quality customized shipping containers for any application")
-    st.write("[Learn More>](https://containerinvestmentkenya.co.ke/)")
+    st.write("[Learn More.](https://containerinvestmentkenya.co.ke/)")
 
 #-------WHAT WE OFFER------
 
@@ -76,7 +76,7 @@ with st.container():
             We offer upto standard fabrication services that exceeds our customer specifications.
             The structures are used for commercial services and also as storage facilities
             """)
-        st.write("[Learn More>]https://containerinvestmentkenya.co.ke/service/dry-containers/")
+        st.write("[Learn More.](https://containerinvestmentkenya.co.ke/service/dry-containers/)")
 
 
 with st.container():
@@ -91,7 +91,7 @@ with st.container():
             The offices offices are fully insulated, padding with gypsum,electrical wiring, ceramic tiles on the floor and spray painted to color of choice.
             any other customization is also allowed.
             """)
-        st.write("[Learn More>]https://containerinvestmentkenya.co.ke/service/container-offices/")
+        st.write("[Learn More.](https://containerinvestmentkenya.co.ke/service/container-offices/)")
 
 #---------CAFETERIA----------
 with st.container():
@@ -106,7 +106,7 @@ with st.container():
             The structures provides a vibrant and modern space that can be used either temporarily or permanently.
             The results are just amazing. Infact, your imagination is the only limit.
             """)
-        st.write("[Learn More>]https://containerinvestmentkenya.co.ke/")
+        st.write("[Learn More.](https://containerinvestmentkenya.co.ke/)")
 
 
 #-----------CONTAINER ACCOMODATION/HOMES--------
@@ -123,7 +123,7 @@ with st.container():
              every detail of your project with 3D renderings to capture
               all of your needs and desires while adhering to all required standards.
             """)
-        st.write("[Learn More>]https://containerinvestmentkenya.co.ke/service/container-accommodation-homes/")
+        st.write("[Learn More.](https://containerinvestmentkenya.co.ke/service/container-accommodation-homes/)")
 
 
 #--------REFRIGIRATED---------------------
@@ -140,7 +140,7 @@ with st.container():
             Temperature ranges of between -30 to +30 degrees Celsius.
             A One-year warranty is also offered.
             """)
-        st.write("[Learn More>]https://containerinvestmentkenya.co.ke/service/refrigerated-container/")
+        st.write("[Learn More.](https://containerinvestmentkenya.co.ke/service/refrigerated-container/)")
 
 #------------LOGISTICS---------------
 
@@ -155,7 +155,7 @@ with st.container():
             We deliver shipping containers countrywide.
             We are simply a one shop stop for all your container needs.
             """)
-        st.write("[Learn More>]https://containerinvestmentkenya.co.ke/service/logistics/")
+        st.write("[Learn More.](https://containerinvestmentkenya.co.ke/service/logistics/)")
 
 
 
