@@ -176,11 +176,11 @@ with st.container():
     contact_form = """
     <form action="https://formsubmit.co/nyingicontainers@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value = "false">
-        <label for="name">Name</label>
+        <label for="name">Your Name</label>
         <input type="text" id="name" name="name" required>
-        <label for="email">Email</label>
+        <label for="email">Your Email</label>
         <input type="email" id="email" name="email" required>
-        <label for="message">Email</label>
+        <label for="message">Message</label>
         <textarea name="message" id="message" required></textarea>
         <button type="submit">Send</button>
     </form> 
