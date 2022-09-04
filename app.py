@@ -25,13 +25,13 @@ def local_css(file_name):
 local_css("./style/style.css")       
 #---LOAD ASSETS-----
 
-lottie_coding = load_lottieurl ("https://assets7.lottiefiles.com/packages/lf20_pnjqarcr.json")
-img_contact_form = Image.open("./images/Office.jpg")
+#lottie_coding = load_lottieurl ("https://assets7.lottiefiles.com/packages/lf20_pnjqarcr.json")
 img_lottie_animation = Image.open("./images/shop.jpeg")
 img_contact_cafeteria = Image.open("./images/cafeteria.jpeg")
-img_contact_logistics = Image.open("./images/logistics.jpg")
 img_contact_accomodation = Image.open("./images/accomodation.jpg")
 img_contact_Refrigirated = Image.open("./images/Refrigirated.jpg")
+img_contact_logistics = Image.open("./images/logistics.jpg")
+img_contact_form = Image.open("./images/Office.jpg")
 #-------HEADER SECTION -------
 
 with st.container(): 
